@@ -1,0 +1,44 @@
+/* Style for navbar and footer placeholders */
+  .navbar {
+    background-color: rgba(41, 51, 75, 0.9); }
+    .navbar a {
+      color: #d1bb3d; }
+    .navbar .container {
+      justify-content: flex-start; }
+  
+  .navbar-brand {
+    font-size: 30px; }
+  
+  .nav {
+    flex-direction: row;
+    margin-left: 50px; }
+    .nav li {
+      margin: 8px; }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    color: #d1bb3d;
+    background-color: rgba(41, 51, 75, 0.9);
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    text-align: center; }
+  
+  form {
+    margin: 15px 10%; }
+  
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 20px; }
+  
+  button {
+    width: 30%; }
+  
+  a {
+    color: #6dc9e6; }
+  
+  /*# sourceMappingURL=styles.css.map */
+  

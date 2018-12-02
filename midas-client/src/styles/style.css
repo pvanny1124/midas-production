@@ -1,0 +1,268 @@
+html, body {
+  height: 100%;
+  position: relative;
+  color: #777; }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.about-profile-pic {
+  float: left;
+  margin: 0 1em 1em 0; }
+
+.app {
+  display: flex;
+  flex-direction: column; }
+
+.body-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.container-list {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+  height: 200px;
+  overflow-y: scroll; }
+
+.display-field-key {
+  color: black;
+  font-weight: 700; }
+
+.display-field-value {
+  color: #929292; }
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  background-image: linear-gradient(to top, #fff 0%, #f8f8f8 100%);
+  box-shadow: 0 -1px 1px 0 #e4e1e1;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  text-align: center; }
+
+/* Forms */
+.form-container {
+  width: 512px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin: 30px auto; }
+
+.form-title {
+  color: #8843d6;
+  font-size: 40px;
+  display: flex;
+  margin-bottom: 20px; }
+
+.form-control {
+  padding: 5px;
+  margin: 0 auto;
+  width: 50%; }
+
+.header-image {
+  width: 100%;
+  margin-top: -2em;
+  margin-bottom: 2em; }
+
+/*
+    Following removes scrollbars from inputs with type="number"...
+*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0; }
+
+.list-group-item {
+  width: 200px;
+  height: 50px;
+  font-size: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.login_form {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center; }
+
+.main-container {
+  min-height: 100vh;
+  /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 80px;
+  /* height of your footer */ }
+
+/* 
+    Media Component Styles (react-bootstrap)
+*/
+.media {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px; }
+
+.media-heading {
+  color: #6dc9e6;
+  font-size: 18px; }
+
+.media-body p {
+  color: #929292;
+  font-size: 14px; }
+
+input[type=text]:focus,
+input[type="password"]:focus {
+  border: 1px solid gold;
+  box-shadow: 0 0 5px 1px gold; }
+
+.jumbotron {
+  height: 600px;
+  margin: 30px 0 auto auto;
+  box-shadow: 2px 2px 2px 2px #e4e1e1; }
+
+.navbar-default .navbar-brand {
+  color: #777; }
+
+.navbar-brand {
+  float: left;
+  height: 500px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px; }
+
+.navbar-brand,
+.navbar-nav > li > a {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25); }
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px; }
+
+.portfolio-item {
+  display: inline;
+  flex: auto;
+  list-style-type: none;
+  background: #fafafa; }
+
+.portfolio-item:hover {
+  cursor: pointer; }
+
+.portfolio-stocks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #ececec;
+  padding: 0; }
+
+.price {
+  display: flex;
+  flex-direction: row;
+  height: 100%; }
+
+.profile-pic {
+  width: 50%; }
+
+.signup_form {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center; }
+
+.simulator {
+  float: right;
+  width: 30%; }
+
+.search {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 100px;
+  width: 400px;
+  z-index: 2; }
+
+.search-bar {
+  width: 300px; }
+
+/* Stock Info style */
+.stock-info-title {
+  color: #777;
+  margin: 10px 0; }
+
+.stock-info-price {
+  color: #d1bb3d;
+  align-self: center;
+  margin: 0 10px; }
+
+.stock-info-head {
+  border-bottom: solid 2px rgba(255, 255, 255, 0.06);
+  margin: 10px 20px; }
+
+.stock-info-ticker {
+  font-size: 45px;
+  width: 200px; }
+
+.stock-info-body {
+  margin: 10px 10px;
+  justify-content: center; }
+
+.stock-info-left {
+  border: 1px inset #929292;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px; }
+
+.stock-info-bottom {
+  padding: 10px;
+  text-align: left;
+  border-top: solid 2px rgba(255, 255, 255, 0.06);
+  margin-top: 20px; }
+
+.stock-info-week52Limits {
+  align-self: center;
+  justify-content: center; }
+
+.stock-info {
+  float: left;
+  width: 70%; }
+
+.user-home {
+  display: inline; }
+
+.week-52-low {
+  color: #b83535; }
+
+.week-52-high {
+  color: #29a329; }
+
+.welcome-bullets {
+  display: flex;
+  flex-direction: column; }
+
+.welcome-info > h4 {
+  margin-top: 20px;
+  padding: 0 20px; }
+
+.welcome-placeholder {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid black;
+  height: 100%;
+  text-align: center;
+  justify-self: center;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=style.css.map */

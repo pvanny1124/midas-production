@@ -1,0 +1,24 @@
+{
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "midas_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": "5432"
+  },
+
+  "development": {
+    "username": "midastester",
+    "host": "midas-test.cvl52s4nkxye.us-east-1.rds.amazonaws.com",
+    "database": "midas",
+    "password": "swaggy1124",
+    "port": "5432",
+    "dialect": "postgres"
+  },
+
+  "production": {
+    "use_env_variable": "HEROKU_POSTGRESQL_GOLD_URL"
+  }
+
+}
